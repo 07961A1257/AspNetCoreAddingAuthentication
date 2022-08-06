@@ -33,6 +33,7 @@ namespace WishList
                 app.UseExceptionHandler("/Home/Error");
             }
 
+            app.UseAuthentication();
             app.UseMvcWithDefaultRoute();
         }
     }
